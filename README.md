@@ -19,4 +19,6 @@ lights.set(2, 0xff, 0xff, 0xff);
 lights.sync();
 lights.off(); // All off immediately (saves previous state)
 lights.sync(); // Restores previous state
+lights.clear(); // Sets every pixel in the pixel buffer to zero (hard off)
+lights.sync();
 ```
